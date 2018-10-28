@@ -105,3 +105,40 @@ Date 一行是系统记录生成的时间
 
 <img src="images/20.png" alt="操作图">
 <img src="images/21.png" alt="操作图">
+
+
+
+
+## 上传本次教程
+
+
+连接远程github > 生成秘钥
+
+	 ssh-keygen -t rsa -C "2371778707@qq.com"
+
+<img src="images/22.png" alt="操作图">
+
+测试连接
+
+	ssh -T git@github.com
+
+<img src="images/23.png" alt="操作图">
+<img src="images/24.png" alt="操作图">
+
+添加远程仓库
+
+	git remote add origin git@github.com:2371778707/Git_Use_Notes.git
+<img src="images/25.png" alt="操作图">
+<img src="images/26.png" alt="操作图">
+
+
+将本地的master上传到github
+
+<img src="images/27.png" alt="操作图">
+
+
+刷新浏览器
+
+<img src="images/28.png" alt="操作图">
+
+到此上传成功了
