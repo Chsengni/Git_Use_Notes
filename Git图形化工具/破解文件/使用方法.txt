@@ -1,0 +1,1 @@
+将accounts.json复制到 C:\Users\用户名\AppData\Local\Atlassian\SourceTree
