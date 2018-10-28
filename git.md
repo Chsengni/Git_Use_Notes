@@ -134,6 +134,8 @@ Date 一行是系统记录生成的时间
 
 将本地的master上传到github
 
+	git push -u origin master
+
 <img src="images/27.png" alt="操作图">
 
 
@@ -142,3 +144,50 @@ Date 一行是系统记录生成的时间
 <img src="images/28.png" alt="操作图">
 
 到此上传成功了
+
+
+## 克隆仓库(以我的期末jsp项目设计为例)
+Clone with SSH
+<img src="images/29.png" alt="操作图">
+
+Clone with HTTPS
+<img src="images/30.png" alt="操作图">
+
+
+	git clone git@github.com:2371778707/BookStore.git
+<img src="images/31.png" alt="操作图">
+
+BookStore已经git init 初始化过了
+
+<img src="images/32.png" alt="操作图">
+
+
+或者
+	
+	git clone https://github.com/2371778707/BookStore.git
+
+<img src="images/33.png" alt="操作图">
+
+向README.md文件添加内容
+
+<img src="images/34.png" alt="操作图">
+	
+	echo "## 本代码仅供参考" >> README.md
+
+<img src="images/35.png" alt="操作图">
+
+添加到暂存区并提交
+	
+	git add README.md
+	git commit -m "JSP项目设计"	
+
+然后
+
+	git push
+
+<img src="images/36.png" alt="操作图">
+
+克隆不用绑定仓库
+
+<img src="images/37.png" alt="操作图">
+
