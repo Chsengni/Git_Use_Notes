@@ -1,3 +1,7 @@
+## 首先
+
+安装环境 —>  Git-2.16.2-32-bit.exe
+
 <img src="images/1.png" alt="Git工作流示意图">
 
 初始化目录(工作区)
