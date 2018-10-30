@@ -225,3 +225,25 @@ BookStore已经git init 初始化过了
 	git push origin name
 
 <img src="images/41.png" alt="操作图">
+
+创建分支
+
+	git branch name
+
+查看分支
+
+	git branch
+ 
+切换分支
+
+	git checkout name
+
+删除分支
+
+	git branch -d name
+
+合并分支 切换到master分支上
+
+	git checkout master
+
+	git merge name
