@@ -219,3 +219,9 @@ BookStore已经git init 初始化过了
 	git tag -d name
 
 <img src="images/40.png" alt="操作图">
+
+标签发布
+
+	git push origin name
+
+<img src="images/41.png" alt="操作图">
