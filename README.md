@@ -195,3 +195,27 @@ BookStore已经git init 初始化过了
 
 <img src="images/37.png" alt="操作图">
 
+
+## 标签管理
+查看创建的标签
+
+	git tag
+
+创建标签
+
+	git tag name
+
+<img src="images/38.png" alt="操作图">
+
+指定提交信息
+
+	git tag -a name -m "comment"
+
+<img src="images/39.png" alt="操作图">
+
+
+删除标签
+
+	git tag -d name
+
+<img src="images/40.png" alt="操作图">
